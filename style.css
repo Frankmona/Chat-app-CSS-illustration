@@ -7,6 +7,7 @@
 body{
     background-color: hsl(0, 0%, 100%);
     overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
 }
 
 .leftside_box{
@@ -23,26 +24,52 @@ body{
     width: 23rem;
     height: 32rem;
     background-color: hsl(270, 20%, 96%);
-    border-top-left-radius: 160px;
-    border-top-right-radius: 160px;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
     position: absolute;
     right: 0px;
     bottom: 0px;
-    margin-right: -100px;
+    margin-right: -150px;
 }
 
 .app_box{
     width: 50rem;
     height: 25rem;
-    background-color: black;
-    margin-left: 50%;
+    /* background-color: black; */
+    margin-left: 295px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 50px;
+    z-index: 1;
 }
 
 .app{
-    width: 20rem;
-    height: 20rem;
-    background-color: white;
+    width: 13rem;
+    height: 25rem;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 30px;
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px hsl(240, 3%, 93%);
     
+}
+
+.textbox{
+    width: 25rem;
+    height: 10rem;
+    /* background-color: blueviolet; */
+    margin-top: 150px;
+}
+h2{
+    color: hsl(271, 36%, 24%);
+}
+
+.p_simple_booking{
+    color: hsl(270, 7%, 64%);
+    font-size: small;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.container{
+    display: flex;
+    gap: 8rem;
 }
