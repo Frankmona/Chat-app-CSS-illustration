@@ -73,3 +73,74 @@ h2{
     display: flex;
     gap: 8rem;
 }
+
+.heading_app{
+    width: 13rem;
+    height: 4rem;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2.5px;
+    margin-top: 30px;
+    margin-left: 8px;
+  }
+
+  .left {
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+  }
+
+  .avatar{
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+
+  .p_samuel{
+    color: white;
+    font-size: 10px;
+  }
+
+.p_available{
+    color: hsl(270, 7%, 64%);
+    font-size: 8px;
+    padding-top: 3px;
+}
+
+.inheading_row_display{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 22px;
+}
+
+.inheading_arrow_display{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.fa{
+    color: white;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.inheading_3dot_display{
+    display: flex;
+    gap: 1rem;
+}
+
+.top_headin_box{
+    width: 10rem;
+    height: 1.5rem;
+    color: white;
+    position: relative;
+}
