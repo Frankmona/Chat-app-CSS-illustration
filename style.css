@@ -44,7 +44,7 @@ body{
 
 .app{
     width: 13rem;
-    height: 25rem;
+    height: 26rem;
     background-color: hsl(270, 20%, 96%);
     border-radius: 30px;
     border: 10px solid white;
@@ -138,9 +138,48 @@ h2{
     gap: 1rem;
 }
 
-.top_headin_box{
-    width: 10rem;
+.mona{
+    width: 7rem;
     height: 1.5rem;
-    color: white;
-    position: relative;
+    background-color: white;
+    position: absolute;
+    border-radius: 25px;
+    margin:  0 50px  0 50px;
+    margin-top: -9px;
+    
+}
+
+.in_app_box1{
+    width: 150px;
+    height: 40px;
+    background-color: hsl(274, 69%, 90%);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top-right-radius:11px ;
+    border-bottom-right-radius:11px ;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+.p_app_box1{
+    color: hsl(276, 55%, 52%);
+    font-size: 10px;
+    padding: 6px;
+}
+
+.dog_img{
+    width: 28%;
+    border-radius: 10px;
+}
+
+.dog_section{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.dog_container{
+    float: right;
+    margin-left: 80px;
+    margin-top: 15px;
 }
