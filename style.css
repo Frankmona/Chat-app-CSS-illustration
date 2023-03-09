@@ -38,7 +38,7 @@ body{
     /* background-color: black; */
     margin-left: 295px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
     z-index: 1;
 }
 
@@ -301,29 +301,7 @@ h2{
     font-size: 8px;
  }
 
- .circle2 {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 15px;
-    vertical-align: middle;
-    padding: 10px;
-    border: 1px solid white;
-  }
 
-  .arrow_right {
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 2.5px;
-    margin-top: 30px;
-    margin-left: 8px;
-  }
 
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
 
   
