@@ -303,5 +303,113 @@ h2{
 
 
 
+ @media screen  and (max-width: 414px){
+
+  .app_box{
+    width: 10rem;
+    height: 5rem;
+    /* background-color: black; */
+    margin-left: 280px;
+    position: absolute;
+    margin-top: 30px;
+    z-index: 1;
+ 
+  } 
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.rightside_box{
+  width: 21rem;
+  height: 20rem;
+  background-color: hsl(270, 20%, 96%);
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+  position: absolute;
+  right: 0px;
+  bottom: -300px;
+  margin-right: -150px;
+  overflow-x: hidden;
+}
+
+.leftside_box{
+  width: 21rem;
+  height: 32rem;
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  position: relative;
+  margin-left: -100px;
+}
+
+.textbox{
+  width: 15rem;
+  height: 10rem;
+  /* background-color: blueviolet; */
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+
+
+
+
+  /* body{
+    
+    overflow-x: hidden;
+    
+}
+
+
+  .container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.leftside_box{
+  width: 21rem;
+  height: 32rem;
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  position: relative;
+  margin-left: -30px;
+}
+
+
+.rightside_box{
+  width: 23rem;
+  height: 35rem;
+  background-color: hsl(270, 20%, 96%);
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+  position: absolute;
+  right: 0px;
+  bottom: -300px;
+  margin-right: -150px;
+}
+
+
+.app_box{
+  width: 50rem;
+  height: 25rem;
+  background-color: black;
+  margin-left: 295px;
+  position: absolute;
+  margin-top: 30px;
+  z-index: 1;
+  display: none;
+} */
+
+  
+ }
+
+
 
   
